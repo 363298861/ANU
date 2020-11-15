@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0922a42a-785b-48ac-ae83-33e48becb90f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1bOOI2SEbsI6IY83W9nUJOacWRN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cudaAdv" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0922a42a-785b-48ac-ae83-33e48becb90f" name="Default Changelist" comment="" />
+      <created>1588499589232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588499589232</updated>
+      <workItem from="1588499590467" duration="2477000" />
+      <workItem from="1588554881323" duration="8798000" />
+      <workItem from="1589170153943" duration="1190000" />
+      <workItem from="1589189174662" duration="517000" />
+      <workItem from="1589189701183" duration="280000" />
+      <workItem from="1590389028706" duration="20000" />
+      <workItem from="1590389066384" duration="7000" />
+      <workItem from="1591001176660" duration="1061000" />
+      <workItem from="1598449268114" duration="643000" />
+      <workItem from="1598534818721" duration="767000" />
+      <workItem from="1598611156503" duration="885000" />
+      <workItem from="1598672601123" duration="7250000" />
+      <workItem from="1598717615709" duration="723000" />
+      <workItem from="1598858853300" duration="39000" />
+      <workItem from="1603679804646" duration="685000" />
+      <workItem from="1603808331155" duration="42000" />
+      <workItem from="1604410531621" duration="701000" />
+      <workItem from="1604489518561" duration="748000" />
+      <workItem from="1604546822526" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="787" y="250" width="424" height="492" key="FileChooserDialogImpl" timestamp="1604546830628">
+      <screen x="83" y="27" width="1837" height="1052" />
+    </state>
+    <state x="787" y="250" width="424" height="492" key="FileChooserDialogImpl/83.27.1837.1052@83.27.1837.1052" timestamp="1604546830628" />
+    <state x="661" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1604546821818">
+      <screen x="83" y="27" width="1837" height="1052" />
+    </state>
+    <state x="661" y="305" key="com.intellij.ide.util.TipDialog/83.27.1837.1052@83.27.1837.1052" timestamp="1604546821818" />
+  </component>
+</project>

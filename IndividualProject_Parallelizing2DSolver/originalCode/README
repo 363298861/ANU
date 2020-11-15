@@ -1,0 +1,42 @@
+Brian Lee, 22/Jan/2016
+Description for added features on advectionSolver (adv2)
+
+1. Options added 
+ -i: exits just after one iteration.
+   default: no
+
+ -e floating_number: turns on the memory corruptor with the given probability
+  (default: no) 
+    eg) -e 0.00000001
+
+ -H number(1-3): specifies the size of boundary of halo array (default: 3)
+    eg) -H 3
+
+ -t: use TMR (default: no)
+
+ -x stencil: select a stencil to use. cannot select multiple stencils.
+  stencil: NN2, NW2, NF2, WN2, WW2, WF2, FN2, FW2 and FF2 (from Brendan)
+           XX (use the previous implementation) (default: all (NN2, NW2, NF2))
+  eg) -x XX, -x NF2, ...
+
+ -a: use alternating stencils between (NN2, NW2, NF2) and (NN2, WN2, FN2)
+  (default: no)
+ 
+ -w: exclude first iteration time from the total elpased time (default: no)
+
+2. Implementation notes
+ - Current implementation assumes only 2D case, thus For TMR, VT and VhT use ix
+   and ihx without modification, using k for t. For TMR of the 3D case, ix and
+   ihx should be extended for (i,j,k,t). Please refer to Advect2D.cpp.
+
+ - run3dAdvect.multi is a simple script for running multiple node. 
+   Variables, HOSTS, TDIR and PREFIX, in the script should be modified
+   appropriately.
+
+ - We need to clearfy qsort() behavior for Nan and Inf.
+
+3. Compile options
+ - _ENABLE_ALL_STS_: specifies to use all 9 stencils, compute 9 stencils and
+  take the median of them.
+
+ - __MEM_COPRRUPTOR__: enable memory corrupter.
